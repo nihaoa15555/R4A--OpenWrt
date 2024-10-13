@@ -16,4 +16,4 @@
 git clone https://github.com/Zxilly/UA2F.git package/UA2F
 git clone https://github.com/CHN-beta/rkp-ipid.git package/rkp-ipid
 git clone https://github.com/nihaoa15555/luci-app-ua2f.git package/luci-app-ua2f
-git clone https://github.com/nihaoa15555/luci-app-nettask.git package/luci-app-nettest
+git clone https://github.com/nihaoa15555/luci-app-nettask.git package/luci-app-nettast
