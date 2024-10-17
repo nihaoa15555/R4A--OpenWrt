@@ -42,7 +42,6 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='HuaWei'' packag
 # 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 sed -i 's/OpenWrt /编译时间 $(TZ=UTC-8 date "+%Y.%m.%d") @ Bzzbzb /g' package/lean/default-settings/files/zzz-default-settings
 
-sed -i "s/Xiaomi Mi Router CR660x/小米CR660X路由/g" target/linux/ramips/dts/mt7621_xiaomi_mi-router-cr660x.dts
 
 # 状态系统增加个性信息
 
