@@ -16,8 +16,8 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
-        default: 'ture'
+        required: true
+        default: 'true'
         
       release:
         description: 'Upload firmware to release'
